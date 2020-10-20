@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/qpwsa/donghua#readme",
   "dependencies": {
-    "harp": "^0.32.0"
+    "harp": "*"
   }
 }
