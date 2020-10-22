@@ -1,3 +1,4 @@
+/* web */
 html {
   font-family: "Montserrat", sans-serif;
 }
@@ -12,10 +13,7 @@ header {
   flex-direction: row;
   align-items: center;
   width: 100%;
-  height: 15vh;
-  /* background-image: url(image/zueli.webp);
-  background-repeat: no-repeat;
-  background-size: 100%; */
+  height: 10vh;
 }
 .title {
   font-size: 2.5em;
@@ -75,6 +73,11 @@ span {
 span > a {
   color: white;
 }
+.donghua__recomend{
+    width: 280px;
+    height: 320px;
+  
+}
 .web__recomend {
   width: 100%;
 }
@@ -83,4 +86,94 @@ span > a {
   width: 100%;
   max-width: 600px;
   height: auto;
+}
+/* web mediun */
+@media only screen and (max-width: 992px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: auto;
+    margin: 2% 0;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.65);
+    border-radius: 1rem;
+  }
+}
+
+/* ipad */
+@media only screen and (max-width: 768px) {
+  body {
+    margin: auto 4%;
+    box-sizing: border-box;
+    background-color: #f5f6f7;
+  }
+  .title {
+    margin-left: 10%;
+  }
+  h1 {
+    margin-left: 1rem;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: auto;
+    margin: 2% 0;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.65);
+    border-radius: 1rem;
+  }
+  nav > a {
+    text-decoration: none;
+    margin: 1%;
+    padding: 1%;
+    color: white;
+  }
+  main {
+    background-color: white;
+    padding: 20px;
+    -webkit-box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 1rem;
+  }
+}
+/* movil */
+@media only screen and (max-width: 600px) {
+  body {
+    margin: auto 4%;
+    box-sizing: border-box;
+    background-color: #f5f6f7;
+  }
+  .title {
+    margin-left: 10%;
+  }
+  h1 {
+    margin-left: 1rem;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: auto;
+    margin: 2% 0;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.65);
+    border-radius: 1rem;
+  }
+  nav > a {
+    text-decoration: none;
+    margin: 1%;
+    padding: 1%;
+    color: white;
+  }
+  main {
+    background-color: white;
+    padding: 20px;
+    -webkit-box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 1rem;
+  }
 }
