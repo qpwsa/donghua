@@ -1,179 +1,78 @@
-/* web */
-html {
-  font-family: "Montserrat", sans-serif;
-}
 body {
-  margin: auto 15%;
+  margin: 0;
+  font-family: "Grandstander", cursive, Arial, sans-serif;
   box-sizing: border-box;
-  background-color: #f5f6f7;
 }
-
 header {
+  background-color: aqua;
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 100%;
-  height: 10vh;
-}
-.title {
-  font-size: 2.5em;
-  margin-left: 10%;
-}
-h1 {
-  font-size: 2.5rem;
-  margin-left: 1rem;
-}
-nav {
-  display: flex;
-  flex-direction: row;
   justify-content: space-around;
-  height: auto;
-  margin: 2% 0;
-  position: sticky;
-  top: 0;
-  background-color: rgba(0, 0, 0, 0.65);
-
 }
-i {
-  margin-right: 0.5rem;
+/* h1 */
+header>h1{
+  font-style: italic;
 }
-nav > a {
+/* links */
+nav>a{
   text-decoration: none;
-  margin: 1%;
-  padding: 1%;
-  color: white;
+  color: black;
+  font-weight: 500;
+  font-size: 1.25rem;
 }
-main {
-  background-color: white;
-  padding: 20px;
-  -webkit-box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.75);
+/* -------------- */
+main{
+  width: 80vw;
+  margin: auto 10vw;
 }
-h2 {
-  padding-top: 2rem;
+article{
+  margin: 2rem ;
+  padding: 0.2rem; 
 }
-
-footer {
+section{
+  margin: 2rem ;
+  padding: 0.2rem; 
+}
+footer{
   background-color: black;
   color: white;
-}
-footer > h2 {
-  margin-left: 3%;
-}
-
-span {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   align-items: center;
-  font-size: 1.5em;
-  padding: 0.5em;
+  justify-content: space-around;
 }
-span > a {
-  color: white;
-}
-.donghua__recomend{
-    width: 280px;
-    height: 320px;
-  
-}
-.web__recomend {
+/* image responsive */
+.responsive{
   width: 100%;
-}
-
-.img_p {
-  width: 100%;
-  max-width: 600px;
   height: auto;
 }
-/* web mediun */
-@media only screen and (max-width: 992px) {
-  nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: auto;
-    margin: 2% 0;
-    position: relative;
-    background-color: rgba(0, 0, 0, 0.65);
-    border-radius: 1rem;
-  }
+.resp_img{
+  width: 100%;
+  max-width: 527px;
+  height: auto;
 }
-
-/* ipad */
-@media only screen and (max-width: 768px) {
-  body {
-    margin: auto 4%;
-    box-sizing: border-box;
-    background-color: #f5f6f7;
-  }
-  .title {
-    margin-left: 10%;
-  }
-  h1 {
-    margin-left: 1rem;
-  }
-  nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: auto;
-    margin: 2% 0;
-    position: relative;
-    background-color: rgba(0, 0, 0, 0.65);
-    border-radius: 1rem;
-  }
-  nav > a {
-    text-decoration: none;
-    margin: 1%;
-    padding: 1%;
-    color: white;
-  }
-  main {
-    background-color: white;
-    padding: 20px;
-    -webkit-box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.75);
-    border-radius: 1rem;
-  }
+.donghua__recomend{
+  width: 100%;
+  max-width: 200px;
+  max-height: 320px;
+  height: auto;
 }
-/* movil */
-@media only screen and (max-width: 600px) {
-  body {
-    margin: auto 4%;
-    box-sizing: border-box;
-    background-color: #f5f6f7;
-  }
-  .title {
-    margin-left: 10%;
-  }
-  h1 {
-    margin-left: 1rem;
-  }
-  nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: auto;
-    margin: 2% 0;
-    position: relative;
-    background-color: rgba(0, 0, 0, 0.65);
-    border-radius: 1rem;
-  }
-  nav > a {
-    text-decoration: none;
-    margin: 1%;
-    padding: 1%;
-    color: white;
-  }
-  main {
-    background-color: white;
-    padding: 20px;
-    -webkit-box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.75);
-    border-radius: 1rem;
-  }
+/* icon */
+i{
+  margin: 0 .5rem;
+}
+/* h2 */
+h2{
+  font-style: italic;
+  font-size: 2rem;
+}
+h3{
+  font-weight: bold;
+  font-size: 1.65rem;
+}
+p{
+  font-size: 1.25rem;
+  font-weight: 100;
+  letter-spacing: 1.5px;
 }
