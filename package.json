@@ -4,7 +4,7 @@
   "description": "mi primera web",
   "main": "index.js",
   "scripts": {
-    "start": "harp server --port $PORT"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/qpwsa/donghua#readme",
   "dependencies": {
-    "harp": "*"
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
